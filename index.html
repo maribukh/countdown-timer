@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="countdown"></div>
+    <div class="container" id="container">
+      <div class="top-control">
+        <p>Name:</p>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="elements">
+        <div class="text-container"></div>
+      </div>
+      <div class="controls">
+        <input placeholder="Enter Text" onkeydown="add(event)" type="text" id="text" />
+        <button onclick="add(event)">Send</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
