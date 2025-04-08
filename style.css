@@ -88,6 +88,7 @@ input {
 }
 
 button {
+  cursor: pointer;
   width: 40%;
   outline: none;
   border: none;
