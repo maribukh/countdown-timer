@@ -7,10 +7,9 @@ function add(event) {
       let newDiv = document.createElement("div");
       newDiv.classList.add("box");
       let text = document.createElement("span");
-      text.textContent = nameInput.value + ":" + textInput.value;
+      text.textContent = nameInput.value + ":  " + textInput.value;
       let clear = document.createElement("span");
       clear.textContent = "✖";
-      clear.style.marginLeft = "0.4rem";
       clear.onclick = () => clear.parentElement.remove();
       let textContainer = document.querySelector(".text-container");
       newDiv.appendChild(text);
@@ -50,7 +49,7 @@ function timer(minutes, seconds) {
   }, 1000);
 }
 
-timer(0, 10);
+timer(10, 0);
 
 // function renderForm(container) {
 //   document.getElementById(container).innerHTML = "";
