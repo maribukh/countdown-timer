@@ -49,7 +49,7 @@ function timer(minutes, seconds) {
   }, 1000);
 }
 
-timer(10, 0);
+timer(0, 10);
 
 // function renderForm(container) {
 //   document.getElementById(container).innerHTML = "";
